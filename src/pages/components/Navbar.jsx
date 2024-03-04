@@ -49,7 +49,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href="#"
+              href="/contact"
               className="flex items-center text-gray-700 hover:text-gray-900"
             >
               {/* You can add icons here */}
