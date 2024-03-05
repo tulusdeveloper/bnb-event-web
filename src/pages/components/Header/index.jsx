@@ -15,6 +15,7 @@ const Header = () => {
             objectFit="cover" // Apply object-fit: cover style
             className="max-h-96" // Set maximum height to control the height
           />
+          
         </div>
       </div>
     </header>

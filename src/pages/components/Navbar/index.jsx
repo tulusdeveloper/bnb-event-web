@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
@@ -67,7 +68,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-<hr />
+      <hr />
       {/* Social Links */}
       <div className="flex flex-col items-center text-pink-500">
         <Link
@@ -89,6 +90,41 @@ const Navbar = () => {
           +254 710 391 049
         </Link>
       </div>
+
+      {/* Social Media Handles */}
+      <div className="flex justify-center space-x-4 mt-4">
+        <Link
+          href="https://www.facebook.com/eventsbyNiki1"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-600 hover:text-gray-900"
+        >
+          <div className="bg-gray-200 p-2 rounded">
+            <FaFacebook size={20} />
+          </div>
+        </Link>
+        <Link
+          href="https://twitter.com/yourhandle"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-600 hover:text-gray-900"
+        >
+          <div className="bg-gray-200 p-2 rounded">
+            <FaTwitter size={20} />
+          </div>
+        </Link>
+        <Link
+          href="https://www.instagram.com/bliss.n.blooms_events"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-600 hover:text-gray-900"
+        >
+          <div className="bg-gray-200 p-2 rounded">
+            <FaInstagram size={20} />
+          </div>
+        </Link>
+      </div>
+
     </nav>
   );
 };
