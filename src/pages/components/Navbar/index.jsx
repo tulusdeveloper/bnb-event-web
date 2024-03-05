@@ -4,7 +4,8 @@ import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow-md p-10 w-80 flex flex-col justify-between">
+    // <nav className="bg-white shadow-md p-10 w-80 flex flex-col justify-between">
+    <nav className="bg-white shadow-md p-10 w-80 flex flex-col justify-between fixed top-0 left-0 bottom-0 overflow-y-auto">
       {/* Logo */}
       <div className="p-10">
         <Link href="/">
@@ -70,7 +71,7 @@ const Navbar = () => {
       </div>
       <hr />
       {/* Social Links */}
-      <div className="flex flex-col items-center text-pink-500">
+      <div className="flex flex-col items-center text-pink-700">
         <Link
           href="mailto:blissnbloomsevents@gmail.com"
           className="hover:text-gray-900"

@@ -4,7 +4,7 @@ import Footer from '../Footer';
 
 const HomePage = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen ml-80">
       <div className="flex-grow">
         <ImageSlider />
         {/* Home page content goes here */}
