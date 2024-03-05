@@ -26,7 +26,7 @@ const Navbar = () => {
               className="flex items-center text-gray-700 hover:text-gray-900"
             >
               {/* You can add icons here */}
-              <span>Home</span>
+              <span>HOME</span>
             </Link>
           </li>
           <li>
@@ -35,7 +35,16 @@ const Navbar = () => {
               className="flex items-center text-gray-700 hover:text-gray-900"
             >
               {/* You can add icons here */}
-              <span>About</span>
+              <span>ABOUT</span>
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/ourwork"
+              className="flex items-center text-gray-700 hover:text-gray-900"
+            >
+              {/* You can add icons here */}
+              <span>OUR WORK</span>
             </Link>
           </li>
           <li>
@@ -44,7 +53,7 @@ const Navbar = () => {
               className="flex items-center text-gray-700 hover:text-gray-900"
             >
               {/* You can add icons here */}
-              <span>Services</span>
+              <span>SERVICES</span>
             </Link>
           </li>
           <li>
@@ -53,7 +62,7 @@ const Navbar = () => {
               className="flex items-center text-gray-700 hover:text-gray-900"
             >
               {/* You can add icons here */}
-              <span>Contact</span>
+              <span>CONTACT</span>
             </Link>
           </li>
         </ul>

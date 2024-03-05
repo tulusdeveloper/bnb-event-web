@@ -2,15 +2,15 @@ import React from 'react';
 import Footer from '../Footer';
 
 
-const AboutPage = () => {
+const OurWork = () => {
 return (
   <div className="flex flex-col min-h-screen">
     <div className="flex-grow">
      
       {/* Home page content goes here */}
       <div className="flex flex-col items-center justify-center flex-grow">
-        <h1 className="text-3xl font-bold mb-4">About Bliss n Blooms Events</h1>
-        <p className="text-lg">Insert information about your company here.</p>
+        <h1 className="text-3xl font-bold mb-4">Our Work</h1>
+        <p className="text-lg">Check out our previous work.</p>
         {/* Add more content as needed */}
       </div>
     </div>
@@ -19,4 +19,4 @@ return (
 );
 };
 
-export default AboutPage;
+export default OurWork;

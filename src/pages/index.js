@@ -5,6 +5,7 @@ import AboutPage from "./components/AboutPage";
 import ServicesPage from "./components/ServicesPage"
 import ContactPage from "./components/ContactPage";
 import Navbar from "./components/Navbar";
+import OurWork from "./components/OurWork";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function Home() {
       <div className="w-full font-mono text-sm lg:flex">
           {router.pathname === "/" && <HomePage />}
           {router.pathname === "/about" && <AboutPage />}
+          {router.pathname=== "/ourwork" && <OurWork />}
           {router.pathname === "/services" && <ServicesPage />}
           {router.pathname === "/contact" && <ContactPage />}
         </div>
