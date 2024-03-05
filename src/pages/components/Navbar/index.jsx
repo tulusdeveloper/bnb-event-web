@@ -67,9 +67,9 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-
+<hr />
       {/* Social Links */}
-      <div className="flex flex-col items-center text-gray-600">
+      <div className="flex flex-col items-center text-pink-500">
         <Link
           href="mailto:blissnbloomsevents@gmail.com"
           className="hover:text-gray-900"
