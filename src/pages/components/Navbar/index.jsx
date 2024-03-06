@@ -25,53 +25,63 @@ const Navbar = () => {
           <li>
             <Link
               href="/"
-              className="flex items-center text-gray-700 hover:text-gray-900"
+              className="flex items-center text-gray-700 group hover:text-gray-900"
             >
               {/* You can add icons here */}
-              <span>HOME</span>
+              <span className="group-hover:underline underline-offset-2 underline-dotted">
+                HOME
+              </span>
             </Link>
           </li>
           <li>
             <Link
               href="/about"
-              className="flex items-center text-gray-700 hover:text-gray-900"
+              className="flex items-center text-gray-700 group hover:text-gray-900"
             >
               {/* You can add icons here */}
-              <span>ABOUT</span>
+              <span className="group-hover:underline underline-offset-2 underline-dotted">
+                ABOUT
+              </span>
             </Link>
           </li>
           <li>
             <Link
               href="/ourwork"
-              className="flex items-center text-gray-700 hover:text-gray-900"
+              className="flex items-center text-gray-700 group hover:text-gray-900"
             >
               {/* You can add icons here */}
-              <span>OUR WORK</span>
+              <span className="group-hover:underline underline-offset-2 underline-dotted">
+                OUR WORK
+              </span>
             </Link>
           </li>
           <li>
             <Link
               href="/services"
-              className="flex items-center text-gray-700 hover:text-gray-900"
+              className="flex items-center text-gray-700 group hover:text-gray-900"
             >
               {/* You can add icons here */}
-              <span>SERVICES</span>
+              <span className="group-hover:underline underline-offset-2 underline-dotted">
+                SERVICES
+              </span>
             </Link>
           </li>
           <li>
             <Link
               href="/contact"
-              className="flex items-center text-gray-700 hover:text-gray-900"
+              className="flex items-center text-gray-700 group hover:text-gray-900"
             >
               {/* You can add icons here */}
-              <span>CONTACT</span>
+              <span className="group-hover:underline underline-offset-2 underline-dotted">
+                CONTACT
+              </span>
             </Link>
           </li>
         </ul>
       </div>
       <hr />
       {/* Social Links */}
-      <div className="flex flex-col items-center text-pink-700">
+      <div className="flex flex-col items-center">
         <Link
           href="mailto:blissnbloomsevents@gmail.com"
           className="hover:text-gray-900"
