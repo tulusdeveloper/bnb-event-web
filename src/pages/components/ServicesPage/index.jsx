@@ -1,10 +1,9 @@
 import React from 'react';
 import Footer from '../Footer';
 import Header from '../Header';
-
+import Image from 'next/image';
 
 const ServicesPage = () => {
-
   return (
     <div className="flex flex-col min-h-screen ml-80">
       <div className="flex-grow">
@@ -19,14 +18,30 @@ const ServicesPage = () => {
 
           {/* Services Grid */}
           <div className="grid grid-cols-3 gap-4">
-            <div className="bg-gray-200 shadow-md rounded-lg p-4">
+            <div className="bg-gray-200 shadow-md rounded-lg p-4 flex flex-col items-center">
+              {/* Image for Luxury Weddings */}
+              <Image
+                src="/services/0Q0A6863.jpg"
+                alt="Luxury Weddings"
+                width={6555}
+                height={4413}
+                className="w-full h-48 object-cover mb-4"
+              />
               <h3 className="text-xl font-bold mb-2">Luxury Weddings</h3>
               <p className="text-md">
                 We create luxurious and unforgettable wedding experiences for
                 our clients.
               </p>
             </div>
-            <div className="bg-gray-200 shadow-md rounded-lg p-4">
+            <div className="bg-gray-200 shadow-md rounded-lg p-4 flex flex-col items-center">
+              {/* Image for Destination Weddings */}
+              <Image
+                src="/services/BPK-101.jpg"
+                alt="Destination Weddings"
+                width={6555}
+                height={4413}
+                className="w-full h-48 object-cover mb-4"
+              />
               <h3 className="text-xl font-bold mb-2">Destination Weddings</h3>
               <p className="text-md">
                 Plan your dream destination wedding with our expert team. We
@@ -34,7 +49,15 @@ const ServicesPage = () => {
                 day.
               </p>
             </div>
-            <div className="bg-gray-200 shadow-md rounded-lg p-4">
+            <div className="bg-gray-200 shadow-md rounded-lg p-4 flex flex-col items-center">
+              {/* Image for Little Celebrations */}
+              <Image
+                src="/services/ROP08221.jpg"
+                alt="Little Celebrations"
+                width={6555}
+                height={4413}
+                className="w-full h-48 object-cover mb-4"
+              />
               <h3 className="text-xl font-bold mb-2">Little Celebrations</h3>
               <p className="text-md">
                 We also specialize in intimate gatherings and small
