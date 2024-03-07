@@ -7,6 +7,7 @@ import ContactPage from "./components/ContactPage";
 import Navbar from "./components/Navbar";
 import OurWork from "./components/OurWork";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {

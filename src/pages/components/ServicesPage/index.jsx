@@ -6,6 +6,8 @@ import Image from 'next/image';
 const ServiceCard = ({ imageSrc, alt, title, description }) => {
   return (
     <div className="bg-gray-200 shadow-md rounded-lg p-4 flex flex-col items-center transition-transform duration-300 hover:scale-105">
+     {/* <div className="bg-gray-800 shadow-md rounded-lg p-4 flex flex-col items-center transition-transform duration-300 hover:scale-105"> */}
+
       <Image
         src={imageSrc}
         alt={alt}
@@ -61,7 +63,8 @@ const ServicesPage = () => {
         <div className="w-16 h-1 bg-pink-500 mb-4"></div>
         <p className="text-lg text-gray-600 max-w-3xl text-center leading-relaxed">
           At Bliss & Blooms, we curate exceptional events that leave a lasting impression. From intimate gatherings to grand celebrations, our team of dedicated professionals brings your vision to life with meticulous attention to detail and a touch of elegance. Indulge in unforgettable experiences tailored to your unique style and preferences.
-        </p>
+        </p><br />
+        <hr />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
           {services.map((service, index) => (
             <ServiceCard key={index} {...service} />

@@ -33,4 +33,30 @@ body {
   }
 }
 
+.ServiceCard {
+  background-color: #fff; /* Light mode background (optional) */
+  color: #333; /* Light mode text color (optional) */
+  transition: color 0.3s ease-in-out; /* Smooth transition */
+}
+
+@media (prefers-color-scheme: dark) {
+  .ServiceCard {
+      background-color: #212529; /* Dark mode background */
+      color: #fff; /* Dark mode text color */
+  }
+}
+
+.dark {
+  background-color: #121212;
+  color: #f8f8f8;
+}
+
+.dark a {
+  color: #f8f8f8;
+}
+
+.dark a:hover {
+  color: #a0a0a0;
+}
+
 

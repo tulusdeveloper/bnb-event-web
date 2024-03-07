@@ -7,7 +7,9 @@ import Image from 'next/image';
 
   const ServiceCard = ({ imageSrc, alt, title, description }) => {
   return (
-    <div className="bg-gray-200 shadow-md rounded-lg p-4 flex flex-col items-center transition-transform duration-300 hover:scale-105">
+    // <div className="bg-gray-200 shadow-md rounded-lg p-4 flex flex-col items-center transition-transform duration-300 hover:scale-105">
+    <div className="bg-gray-800 shadow-md rounded-lg p-4 flex flex-col items-center transition-transform duration-300 hover:scale-105">
+
       <Image
         src={imageSrc}
         alt={alt}
