@@ -26,13 +26,37 @@ const AboutPage = () => {
                 We are a premier event planning and design company based in Eldoret, Kenya. We specialize in weddings, corporate events, private parties, and more. Our team of experienced event planners and designers will work with you to create a truly unforgettable event that reflects your unique style and vision.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                We are committed to providing our clients with the highest level of service and attention to detail. Whether you're planning an intimate gathering or a grand celebration, we'll ensure every detail is perfect.
+                We are committed to providing our clients with the highest level of service and attention to detail. Whether youre planning an intimate gathering or a grand celebration, well ensure every detail is perfect.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Contact us today to learn more about our services and let's start planning your next event together.
+                Contact us today to learn more about our services and lets start planning your next event together.
               </p>
             </div>
           </div>
+       
+          <section className="grid grid-cols-1 md:grid-cols-2 gap-12 px-16 py-12">
+            <div>
+              <h2 className="text-2xl font-semibold text-gray-800 mb-4">Vision & Mission</h2>
+              <p className="text-lg text-gray-600 leading-relaxed mb-4">
+                <strong>Vision:</strong> The vision of Bliss & Blooms is to be the leading event planning and design company in Kenya. They aspire to create beautiful and memorable events that reflect their clients unique style and vision. They also aim to provide their clients with the highest level of service and attention to detail.
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed mb-4">
+                <strong>Mission:</strong> The mission of Bliss & Blooms is to create beautiful and memorable events that reflect their clients unique style and vision. They believe that every event should be a celebration, and they are dedicated to making their clients events the best they can be. We are committed to providing their clients with the best possible experience, and they are always looking for new ways to make their events even more special.
+              </p>
+            </div>
+            <div>
+              <h2 className="text-2xl font-semibold text-gray-800 mb-4">Why Choose Us?</h2>
+              <p className="text-lg text-gray-600 leading-relaxed mb-8">
+                We have over 10 years of experience in the event planning industry, and our team of passionate event planners and designers is dedicated to exceeding your expectations.
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed mb-8">
+                We offer a wide range of event services to meet your needs, ensuring your event reflects your unique style and vision.
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                Welcome to Bliss & Blooms! We cant wait to start planning your dream event.
+              </p>
+            </div>
+          </section>
         </div>
       </div>
       <Footer />
