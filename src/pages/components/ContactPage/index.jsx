@@ -12,7 +12,7 @@ const ContactPage = () => {
         <div className="flex flex-col items-center justify-center flex-grow">
           <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
           <p className="text-lg mb-8">
-            Have a question or need assistance? Fill out the form below, and we'll get back to you as soon as possible.
+            Have a question or need assistance? Fill out the form below, and we will get back to you as soon as possible.
           </p>
           <ContactForm />
           <br />
