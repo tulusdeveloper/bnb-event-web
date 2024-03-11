@@ -3,8 +3,11 @@ import React from 'react';
 import Footer from '../Footer';
 import Header from '../Header';
 import ContactForm from '../ContactForm';
+import GoogleMapIframe from '../GoogleMapIframe';
 
 const ContactPage = () => {
+  const location = { lat: 37.7749, lng: -122.4194 }; // Replace with your desired location
+
   return (
     <div className="flex flex-col min-h-screen ml-80">
       <div className="flex-grow">
@@ -15,6 +18,8 @@ const ContactPage = () => {
             Have a question or need assistance? Fill out the form below, and we will get back to you as soon as possible.
           </p>
           <ContactForm />
+          <br />
+          <GoogleMapIframe/>
           <br />
         </div>
       </div>
