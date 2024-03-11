@@ -46,7 +46,7 @@ const ContactForm = () => {
   return (
     <div className="flex">
       <form onSubmit={handleSubmit} className="max-w-2xl mx-auto">
-        <div className="grid grid-cols-3 gap-4 mb-4">
+        <div className="grid grid-cols-2 gap-4 mb-4">
           <div>
             <label htmlFor="first" className="block font-bold mb-2">
               First
@@ -76,7 +76,7 @@ const ContactForm = () => {
             />
           </div>
         </div>
-        <div className="grid grid-cols-3 gap-4 mb-4">
+        <div className="grid grid-cols-2 gap-4 mb-4">
           <div>
             <label htmlFor="email" className="block font-bold mb-2">
               Email
