@@ -19,9 +19,10 @@ const ContactPage = () => {
           </p>
           <ContactForm />
           <br />
-          <GoogleMapIframe/>
+          
           <br />
         </div>
+        <GoogleMapIframe/>
       </div>
       <Footer />
     </div>
