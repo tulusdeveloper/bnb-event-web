@@ -56,7 +56,7 @@ const ServicesPage = () => {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen ml-80">
+    <div className="flex flex-col min-h-screen ml-80 dark:text-white dark:bg-gray-900">
       <Header />
       <div className="flex-grow flex flex-col justify-center items-center py-16">
         <h1 className="text-4xl font-serif text-gray-800 dark:text-white mb-6">Our Services</h1>

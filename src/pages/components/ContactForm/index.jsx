@@ -57,7 +57,7 @@ const ContactForm = () => {
               name="first"
               value={formData.first}
               onChange={handleChange}
-              className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-800 dark:text-gray-800"
+              className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-800 dark:text-gray-800 dark:bg-slate-200"
               required
             />
           </div>
@@ -71,7 +71,7 @@ const ContactForm = () => {
               name="last"
               value={formData.last}
               onChange={handleChange}
-              className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-800 dark:text-gray-800"
+              className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-800 dark:text-gray-800 dark:bg-slate-200"
               required
             />
           </div>
@@ -87,7 +87,7 @@ const ContactForm = () => {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-800 dark:text-gray-800"
+              className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-800 dark:text-gray-800 dark:bg-slate-200"
               required
             />
           </div>
@@ -101,7 +101,7 @@ const ContactForm = () => {
               name="confirmEmail"
               value={formData.confirmEmail}
               onChange={handleChange}
-              className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-800 dark:text-gray-800"
+              className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-800 dark:text-gray-800 dark:bg-slate-200"
               required
             />
           </div>
@@ -116,7 +116,7 @@ const ContactForm = () => {
             name="date"
             value={formData.date}
             onChange={handleChange}
-            className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-800 dark:text-gray-800"
+            className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-800 dark:text-gray-800 dark:bg-slate-200"
             required
           />
         </div>
@@ -132,7 +132,7 @@ const ContactForm = () => {
               name="countryCode"
               value={formData.countryCode}
               onChange={handleChange}
-              className="border border-gray-300 rounded-l-md py-2 px-3 text-gray-800 dark:text-gray-800"
+              className="border border-gray-300 rounded-l-md py-2 px-3 text-gray-800 dark:text-gray-800 dark:bg-slate-200"
               style={{ maxWidth: "120px" }}
             >
                 <option value="+254">+254 (Kenya)</option>
@@ -148,7 +148,7 @@ const ContactForm = () => {
               name="phone"
               value={formData.phone}
               onChange={handleChange}
-              className="flex-1 border border-gray-300 rounded-r-md py-2 px-3 text-gray-800 dark:text-gray-800"
+              className="flex-1 border border-gray-300 rounded-r-md py-2 px-3 text-gray-800 dark:text-gray-800 dark:bg-slate-200"
               required
             />
           </div>
@@ -165,7 +165,7 @@ const ContactForm = () => {
             name="eventType"
             value={formData.eventType}
             onChange={handleChange}
-            className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-800 dark:text-gray-800"
+            className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-800 dark:text-gray-800 dark:bg-slate-200"
             required
           >
             <option value="">Select Event Type</option>
@@ -185,7 +185,7 @@ const ContactForm = () => {
             name="noOfGuests"
             value={formData.noOfGuests}
             onChange={handleChange}
-            className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-800 dark:text-gray-800"
+            className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-800 dark:text-gray-800 dark:bg-slate-200"
             required
           />
         </div>
@@ -199,7 +199,7 @@ const ContactForm = () => {
             name="venue"
             value={formData.venue}
             onChange={handleChange}
-            className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-800 dark:text-gray-800"
+            className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-800 dark:text-gray-800 dark:bg-slate-200"
             required
           />
         </div>
@@ -213,7 +213,7 @@ const ContactForm = () => {
             name="addressLine1"
             value={formData.addressLine1}
             onChange={handleChange}
-            className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-800 dark:text-gray-800"
+            className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-800 dark:text-gray-800 dark:bg-slate-200"
             required
           />
         </div>
@@ -228,7 +228,7 @@ const ContactForm = () => {
               name="city"
               value={formData.city}
               onChange={handleChange}
-              className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-800 dark:text-gray-800"
+              className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-800 dark:text-gray-800 dark:bg-slate-200"
               required
             />
           </div>
@@ -241,7 +241,7 @@ const ContactForm = () => {
               id="state"
               name="state"
               onChange={handleChange}
-              className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-800 dark:text-gray-800"
+              className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-800 dark:text-gray-800 dark:bg-slate-200"
             />
           </div>
         </div>
@@ -254,7 +254,7 @@ const ContactForm = () => {
             name="eventDetails"
             value={formData.eventDetails}
             onChange={handleChange}
-            className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-800 dark:text-gray-800"
+            className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-800 dark:text-gray-800 dark:bg-slate-200"
             rows="4"
             required
           ></textarea>

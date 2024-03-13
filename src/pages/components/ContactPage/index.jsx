@@ -9,7 +9,7 @@ const ContactPage = () => {
   const location = { lat: 37.7749, lng: -122.4194 }; // Replace with your desired location
 
   return (
-    <div className="flex flex-col min-h-screen ml-80">
+    <div className="flex flex-col min-h-screen ml-80 dark:text-white dark:bg-gray-900">
       <div className="flex-grow">
         <Header />
         <div className="flex flex-col items-center justify-center flex-grow">
