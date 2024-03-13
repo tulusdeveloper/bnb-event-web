@@ -27,10 +27,10 @@ const AboutPage = () => {
                 We are a premier event planning and design company based in Eldoret, Kenya. We specialize in weddings, corporate events, private parties, and more. Our team of experienced event planners and designers will work with you to create a truly unforgettable event that reflects your unique style and vision.
               </p>
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-                We are committed to providing our clients with the highest level of service and attention to detail. Whether you're planning an intimate gathering or a grand celebration, we'll ensure every detail is perfect.
+                We are committed to providing our clients with the highest level of service and attention to detail. Whether you are planning an intimate gathering or a grand celebration, we will ensure every detail is perfect.
               </p>
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-                Contact us today to learn more about our services and let's start planning your next event together.
+                Contact us today to learn more about our services and lets start planning your next event together.
               </p>
             </div>
           </div>
@@ -39,10 +39,10 @@ const AboutPage = () => {
             <div>
               <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-4">Vision & Mission</h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
-                <strong>Vision:</strong> The vision of Bliss & Blooms is to be the leading event planning and design company in Kenya. They aspire to create beautiful and memorable events that reflect their clients' unique style and vision. They also aim to provide their clients with the highest level of service and attention to detail.
+                <strong>Vision:</strong> The vision of Bliss & Blooms is to be the leading event planning and design company in Kenya. They aspire to create beautiful and memorable events that reflect our clients unique style and vision. They also aim to provide their clients with the highest level of service and attention to detail.
               </p>
               <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
-                <strong>Mission:</strong> The mission of Bliss & Blooms is to create beautiful and memorable events that reflect their clients' unique style and vision. They believe that every event should be a celebration, and they are dedicated to making their clients' events the best they can be. We are committed to providing their clients with the best possible experience, and they are always looking for new ways to make their events even more special.
+                <strong>Mission:</strong> The mission of Bliss & Blooms is to create beautiful and memorable events that reflect their clients unique style and vision. They believe that every event should be a celebration, and they are dedicated to making our clients events the best they can be. We are committed to providing their clients with the best possible experience, and they are always looking for new ways to make their events even more special.
               </p>
             </div>
             <div>
@@ -54,7 +54,7 @@ const AboutPage = () => {
                 We offer a wide range of event services to meet your needs, ensuring your event reflects your unique style and vision.
               </p>
               <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-                Welcome to Bliss & Blooms! We can't wait to start planning your dream event.
+                Welcome to Bliss & Blooms! We cant wait to start planning your dream event.
               </p>
             </div>
           </section>
