@@ -10,6 +10,7 @@ const AboutPage = () => {
       <div className="flex-grow flex flex-col items-center justify-center">
         <div className="max-w-5xl px-6 py-12">
           <h1 className="text-5xl font-serif text-gray-800 mb-8 text-center">About Us</h1>
+         
           <div className="flex flex-col md:flex-row items-center justify-center mb-12">
             <div className="md:w-1/2 mb-8 md:mb-0">
               <Image
