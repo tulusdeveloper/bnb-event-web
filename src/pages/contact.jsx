@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className="flex min-h-screen">
       <Navbar />
-      <ContactPage />
+      <ContactPage/>
     </div>
   );
 }

@@ -44,17 +44,7 @@ const Navbar = () => {
               </span>
             </Link>
           </li>
-          <li>
-            <Link
-              href="/ourwork"
-              className="flex items-center text-gray-700 group hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
-            >
-              {/* You can add icons here */}
-              <span className="group-hover:underline underline-offset-2 underline-dotted">
-                OUR WORK
-              </span>
-            </Link>
-          </li>
+          
           <li>
             <Link
               href="/services"
@@ -63,6 +53,17 @@ const Navbar = () => {
               {/* You can add icons here */}
               <span className="group-hover:underline underline-offset-2 underline-dotted">
                 SERVICES
+              </span>
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/ourwork"
+              className="flex items-center text-gray-700 group hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
+            >
+              {/* You can add icons here */}
+              <span className="group-hover:underline underline-offset-2 underline-dotted">
+                OUR WORK
               </span>
             </Link>
           </li>
