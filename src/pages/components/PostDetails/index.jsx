@@ -3,6 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import Footer from '../Footer';
 import Navbar from '../Navbar';
+import Link from 'next/link';
 
 const PostDetails = ({ post }) => {
   if (!post) {
@@ -32,6 +33,13 @@ const PostDetails = ({ post }) => {
           {post.title}
         </h1>
         <p className="text-gray-600 dark:text-gray-300">{post.body}</p>
+        <div className="mt-8">
+          <Link href="/ourwork">
+            <button className="bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-600 transition-colors duration-300">
+              Return to Our Work
+            </button>
+          </Link>
+        </div>
       </div>
       <Footer />
     </div>
