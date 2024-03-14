@@ -27,6 +27,7 @@ export default function Home() {
           {router.pathname=== "/ourwork" && <OurWork />}
           {router.pathname === "/services" && <ServicesPage />}
           {router.pathname === "/contact" && <ContactPage />}
+        
         </div>
       </main>
     </div>
