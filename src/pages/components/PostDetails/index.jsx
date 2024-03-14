@@ -4,11 +4,22 @@ import Image from 'next/image';
 import Footer from '../Footer';
 import Navbar from '../Navbar';
 
-
 const PostDetails = ({ post }) => {
+  if (!post) {
+    return (
+      <div className="flex flex-col min-h-screen ml-80 dark:text-white dark:bg-gray-900">
+        <Navbar />
+        <div className="flex-grow flex justify-center items-center">
+          <p>Post not found</p>
+        </div>
+        <Footer />
+      </div>
+    );
+  }
+
   return (
     <div className="flex flex-col min-h-screen ml-80 dark:text-white dark:bg-gray-900">
-      <Navbar/>
+      <Navbar />
       <div className="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6">
         <Image
           src={post.pictureUrl}

@@ -15,17 +15,29 @@ const PostPage = ({ post }) => {
 };
 
 export const getStaticProps = async ({ params }) => {
-  const res = await fetch(`https://api.moibentech.ac.ke/blogs/${params.id}`);
-  const post = await res.json();
-
-  return {
-    props: {
-      post,
-    },
-    revalidate: 60, // revalidate every 60 seconds
+    try {
+      const res = await fetch(`https://api.moibentech.ac.ke/blogs/${params.id}`);
+      const post = await res.json();
+  
+      if (!post) {
+        return {
+          notFound: true,
+        };
+      }
+  
+      return {
+        props: {
+          post,
+        },
+        revalidate: 60, // revalidate every 60 seconds
+      };
+    } catch (error) {
+      console.error('Error fetching data:', error);
+      return {
+        notFound: true,
+      };
+    }
   };
-};
-
 export const getStaticPaths = async () => {
    
   const res = await fetch('https://api.moibentech.ac.ke/blogs');
